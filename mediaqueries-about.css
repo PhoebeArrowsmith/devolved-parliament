@@ -1,0 +1,53 @@
+@media screen and (max-width: 1100px) {
+    
+#devolved-parliament-banksy{
+    height: 50vh;
+}
+
+
+#banana{
+    width: 70px;
+}
+
+}
+
+@media screen and (max-width: 850px) {
+    nav {
+        justify-items: center;
+    }
+    
+    .logo{
+        padding-right:0;
+        
+    }
+
+    #banana{
+        width: 50px;
+    }
+
+    #devolved-parliament-banksy{
+        height: 40vh;
+    }
+    
+    #main-picture{
+        padding-top: 5vh;
+    }
+
+}
+
+@media screen and (max-width: 675px) {
+    
+    #devolved-parliament-banksy{
+        height: 30vh;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    
+    #devolved-parliament-banksy{
+        height: 25vh;
+    }
+
+}
+

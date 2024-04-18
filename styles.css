@@ -38,6 +38,10 @@ a, .btn {
 nav{
     /* display: block; */
     height: 17vh;
+    display: grid;
+    /* display: block; */
+    height: 17vh;
+    justify-items: end
 }
 
 .logo{
@@ -123,9 +127,10 @@ a{
 
 .section-title {
     min-height: fit-content;
-    display: flex;
+    display: grid;
     width: 100vw;
     justify-content: center;
+    
 }
 
 .section-articles {
@@ -174,15 +179,6 @@ a{
 .one {
     grid-row: 1 / span 2;
     
-}
-
-.two {
-    
-    
-}
-
-.three{
-
 }
 
 .four{

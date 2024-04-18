@@ -1,0 +1,55 @@
+@media screen and (max-width: 1000pc) {
+    #banana{
+        width:70px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .container{
+        background-color: black;
+    }
+
+    nav {
+        justify-items: center;
+    }
+    
+    .logo{
+        padding-right:0;
+        
+    }
+
+    #banana{
+        width: 50px;
+    }
+
+    .section-title {
+        margin-top: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 612px) {
+    .heading{
+        font-size: 1.5rem;
+    }
+
+    .caption-text{
+        font-size: 1rem;
+    }
+    
+
+}
+
+@media screen and (max-width: 375px) {
+    .heading{
+        font-size: 1.25rem;
+    }
+
+    .caption-text{
+        font-size: 0.5rem;
+    }
+    
+
+}
