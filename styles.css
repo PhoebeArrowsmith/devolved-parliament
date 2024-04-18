@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+
+#banana{
+    width:100px;
+}
+
+:root {
+    --bg-color: white;
+    --typewriterSpeed: 6s;
+    --typewriterCharacters: 24;
+  }
+
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Syncopate", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* TRANSITION */
+
+a, .btn {
+    transition: all 300ms ease;
+}
+
+/* DESKTOP NAV*/
+nav{
+    /* display: block; */
+    height: 17vh;
+}
+
+.logo{
+    float: right;
+    padding-top: 5vh;
+    padding-right: 10vw;
+}
+
+#about-nav{
+    height: 7vh;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+a{
+    background-color: white;
+    border-style: none;
+}
+
+/* TEXT */
+
+.heading {
+    font-size: 2.5em ;
+    position:relative
+}
+
+.heading::before,
+.heading::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.heading::before {
+  background: var(--bg-color);
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+.heading::after {
+  width: 0.125em;
+  background: black;
+  animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards,
+    blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+@keyframes typewriter {
+    to {
+      left: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    to {
+      background: transparent;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .caption-text{
+    color: white;
+    
+  }
+
+
+/*ARTICLE SECTION*/
+#hero{
+    height: 83vh;
+    box-sizing: border-box;
+}
+
+.section-title {
+    min-height: fit-content;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.section-articles {
+    
+    gap: 20px;
+    padding-top: 5vh;
+    height: 71vh;
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+.container{
+    background-color: rgb(85, 85, 85);
+    border-radius: 20px;
+    
+    margin-left: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover{
+    background-color: #d3d3d3;
+    cursor: pointer;
+    
+}
+
+.container:hover:before {
+    content: "'quotation'"
+    
+  }
+
+  .container:hover .caption-text {
+    display: none
+  }
+
+
+.one {
+    grid-row: 1 / span 2;
+    
+}
+
+.two {
+    
+    
+}
+
+.three{
+
+}
+
+.four{
+    grid-column: 2 / span 2
+}
+
+#hamilton-cover {
+    width: min-content;
+}
+
+
+    
+
+/*ABOUT*/
+
+#main-picture{
+    display: inline-grid;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+#description{
+    display: inline-grid;
+    margin-top: 5vh;
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+
+#devolved-parliament-banksy{
+    height: 60vh;
+    
+}
+
+
+
+
