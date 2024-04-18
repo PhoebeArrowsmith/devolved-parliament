@@ -41,12 +41,19 @@
         height: 30vh;
     }
 
+    
+
 }
 
 @media screen and (max-width: 450px) {
     
     #devolved-parliament-banksy{
         height: 25vh;
+    }
+
+    #description{
+        margin-right:3vw;
+        margin-left:3vw;
     }
 
 }

@@ -6,9 +6,7 @@
 
 
 @media screen and (max-width: 800px) {
-    .container{
-        background-color: black;
-    }
+    
 
     nav {
         justify-items: center;
@@ -27,6 +25,10 @@
         margin-top: 1rem;
     }
 
+    .section-articles{
+        gap: 2px;
+    }
+
 
 }
 
@@ -37,6 +39,10 @@
 
     .caption-text{
         font-size: 1rem;
+    }
+
+    .section-articles{
+        gap: 1px;
     }
     
 
