@@ -38,23 +38,23 @@
 @media screen and (max-width: 675px) {
     
     #devolved-parliament-banksy{
-        height: 30vh;
-    }
-
-    
-
-}
-
-@media screen and (max-width: 450px) {
-    
-    #devolved-parliament-banksy{
-        height: 25vh;
+        height: 250px;
     }
 
     #description{
         margin-right:3vw;
         margin-left:3vw;
     }
+
+}
+
+@media screen and (max-width: 450px) {
+    
+    #devolved-parliament-banksy{
+        height: 150px;
+    }
+
+    
 
 }
 
